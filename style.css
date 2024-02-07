@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ 
+ 
+/* cv header design */
+ .main-container{
+    width: 600px;
+    height: 100vh;
+    margin: 0 auto;
+    /* background: lightcyan; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   
+ }
+ .my_img_about::before{
+    content: "";
+    top: 12%;
+    left: 10%;
+    width: 120px;
+    height: 120px;
+    background: #fff;
+    position: absolute;
+    border-radius: 50%;
+ }
+ .main-container::before{
+    content: "";
+    top: 0;
+    left: 28%;
+    width: 90px;
+    height: 80px;
+    background: black;
+    position: absolute;
+    
+}
+ .my_img_about img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin: 20px 0px 10px 20px;
+    position: relative;
+     
+   
+      
+ }
+ 
+ .about_me h2{
+    font-size: 18px;
+    padding-top: 15px;
+    font-weight: 600;
+ }
+ .about_me p{
+     width: 90%;
+     font-size: 15px;
+     margin-top: -5px;
+ }
+
+ .common-head{
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    background: rgb(42, 131, 219);
+    padding: 5px 0px;
+    color: #fff;
+    margin-bottom: 18px;
+ }
+ .some_det p{
+     line-height: 0px !important;
+     margin-top: -8px;
+     font-size: 15px;
+ }
+ .some_det p i{
+    padding: 4px;
+    background: lightslategray;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 12px;
+ }
+ .cirtifications ul li span{
+    font-weight: 500;
+ }
+ .cirtifications ul{
+    list-style: none;
+    margin-top: -10px;
+   
+ }
+ .cirtifications ul li{
+    font-size: 15px;
+    padding-left: 10px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 25px;
+    position: relative;
+    letter-spacing: 0.4px;
+    
+ }
+ .cirtifications ul li::before{
+    content: "";
+    top: 35%;
+    left: -2%;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: black;
+    position: absolute;
+     
+ }
+
+
+ /* right side */
+ .name_about_me h1{
+    font-size: 35px;
+    text-transform: uppercase;
+    margin: 45px 0px 15px -55px;
+ }
+ .name_about_me p{
+    font-size: 15px;
+    letter-spacing: 0.4px;
+ }
+ .education_type span{
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+ }
+ .education_type p{
+    margin-top: 8px;
+    text-transform: capitalize;
+    letter-spacing: 0.4px;
+}
+.slills-group{
+    padding-bottom: 10px;
+}
+ .slills-group .skills-name{
+    padding-bottom: 10px;
+ }
+ .progress{
+    height: 6px;
+    font-size: 12px;
+ }
+ .progress .active-progress{
+    width: 97%;
+    height: 6px;
+    
+ }
+ .progress .active-progress-html{
+    width: 97%;
+    background: blue;
+ }
+ .progress .active-progress-css{
+    width: 85%;
+    background: blue;
+ }
+ .progress .active-progress-js{
+    width: 65%;
+    background: blue;
+ }
+/* cv header design */
